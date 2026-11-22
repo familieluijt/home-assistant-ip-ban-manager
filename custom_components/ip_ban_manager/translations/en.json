@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "IP Ban Manager",
+        "description": "Manage the IP addresses in Home Assistant's ip_bans.yaml file."
+      }
+    },
+    "abort": {
+      "already_configured": "IP Ban Manager is already configured."
+    }
+  }
+}

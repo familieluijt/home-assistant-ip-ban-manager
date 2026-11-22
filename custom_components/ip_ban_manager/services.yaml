@@ -1,0 +1,27 @@
+add_ban:
+  name: Add IP ban
+  description: Add an IP address to ip_bans.yaml.
+  fields:
+    ip:
+      name: IP address
+      required: true
+      example: "192.168.1.50"
+      selector:
+        text:
+    reason:
+      name: Reason
+      required: false
+      selector:
+        text:
+remove_ban:
+  name: Remove IP ban
+  description: Remove an IP address from ip_bans.yaml.
+  fields:
+    ip:
+      name: IP address
+      required: true
+      example: "192.168.1.50"
+      selector:
+        text:
+refresh:
+  name: Refresh bans
